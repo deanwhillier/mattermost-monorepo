@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "clean": "lerna run clean",
+    "compile": "lerna run compile",
+    "wipe": "rm -rf ./node_modules && lerna run wipe"
+  }
+}
